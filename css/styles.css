@@ -1,0 +1,184 @@
+/* CSS styles for the graduate student portfolio in this directory which is made from html, css, bootstrap, and javascript */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+h6 {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:active {
+    outline: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------------*/
+/* Navbar */
+/*---------------------------------------------*/
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-brand img:hover {
+    opacity: 0.8;
+}
+
+.navbar-brand:focus {
+    outline: none;
+}
+
+.navbar-brand:active {
+    outline: none;
+}
+
+.navbar-brand:focus img {
+    opacity: 0.8;
+}
+
+.navbar-brand:active img {
+    opacity: 0.8;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-toggler .icon-bar {
+    background-color: #333333;
+}
+
+.navbar-toggler .icon-bar {
+    width: 22px;
+    height: 2px;
+    display: block;
+    margin: 4px 0;
+    transition: all 0.2s;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+.navbar-toggler:hover .icon-bar {
+    background-color: #333333;
+}
+
+.navbar-toggler:focus .icon-bar {
+    background-color: #333333;
+}
+
+section {
+    padding: 100px 0;
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    section {
+        padding: 60px 0;
+    }
+}
+
+/*---------------------------------------------*/
+/* Intro Section */
+/*---------------------------------------------*/
+
+.intro {
+    background-color: #ffffff;
+}
